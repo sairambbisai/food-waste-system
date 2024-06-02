@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lobster',cursive ;
+  }
+  body{
+    background: url("https://r2.erweima.ai/imgcompressed/compressed_48f439c24f2c9436ff4bc185cefd30ff.webp") no-repeat;
+  }
+  .logo {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      vertical-align: middle;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,.1);
+  }
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background:rgb(241, 241, 122);
+    box-shadow: 0 5px 15px rgb(233, 192, 9);
+    z-index: 999;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #3c74a3
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #3c74a3;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+.loginbox {
+    width: 350px;
+    height: 420px;
+    background: black;
+    color: white;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 40px;
+    
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    position: absolute;
+    top: -90px;
+    left: 29%
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20 px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover {
+    color: #ffc107;
+}
+  
