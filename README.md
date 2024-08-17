@@ -1,4 +1,4 @@
 # food-waste-system
 Food Waste Managment System 
 live preview
- https://sairambbisai.github.io/food-waste-system/donor.html
+ https://sairambbisai.github.io/food-waste-system/Registration.html
